@@ -3,7 +3,7 @@ def new_hash
 end
 
 def my_hash
-  nHash = {:key => value}
+  nHash = {:key => 12}
 end
 
 def pioneer
@@ -17,7 +17,7 @@ end
 
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
-  creator = {"key" => value}
+  creator = {key => value}
 end
 
 def read_from_hash(hash, key)
